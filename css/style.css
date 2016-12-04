@@ -1,0 +1,85 @@
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+table, .dyno-table{
+    width: 100%;
+    table-layout: fixed;
+    background-color: #ffe9b9;
+    border: 1px solid black;
+}
+
+.dyno-table-head{
+
+}
+
+.dyno-table-head-title{
+    width: 10%;
+}
+
+.dyno-table-head-blank{
+    width: 4%;
+}
+
+.dyno-table-body{
+
+}
+
+.dyno-table-body tr{
+
+}
+
+.dyno-table-head-th, th{
+    text-align: center;
+    border: 1px solid black;
+    background-color: #d1c1ff;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+.dyno-table-body td, .donor-table-body td, .table-body-td, .table-head-td{
+    text-align: center;
+    border: 1px solid black;
+    background-color: #cbff62;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+.dyno-table-footer{
+
+}
+
+.donor-table{
+    display:none;
+    width: 100%;
+    table-layout: fixed;
+    background-color: #ffe9b9;
+    border: 1px solid black;
+}
+
+.donor-table-body{
+
+}
+
+.table-body-td{
+
+}
+
+.dyno-table-forward-btn, .dyno-table-back-btn:hover{
+cursor: pointer;
+}
+
+.dyno-table-head-summary{
+    min-width: 5%;
+}
+
+.expando{
+    width:100%;
+    overflow-x: scroll;
+    height: 200px;
+}
+
+.dyno-table-head-blank, .table-body-td{
+    width: 5%;
+}
